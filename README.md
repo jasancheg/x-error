@@ -4,21 +4,19 @@
 
 > Version: 0.1.0.
 >
-> Updated: Feb 10, 2018. 10:50 pm UTC-6
->
 > Status: completed
 
 Create custom error objects for the Application.
 
 ## Features
 
-* Strict and readable code enforced with [xo](https://github.com/sindresorhus/xo)
-* Unit tested with `mocha`
+* Strict and readable code enforced with [xo](https://github.com/sindresorhus/xo).
+* Unit tested with `mocha`.
 
 ## Installation
 
 ``` bash
-$ npm install git@github.com:jasancheg/x-error.git
+$ npm install https://github.com/jasancheg/x-error.git
 ```
 
 ## Usage
@@ -38,6 +36,7 @@ overriding any keys set by the factory.
 ```bash
 $ make test
 ```
+
 ## License
 
-© 2018 [Inidea](http://inideaweb.com).  Made with ♥️  🇨🇷
+© 2018 MIT License.  Made with ♥️  -  🇨🇷 - [Inidea](http://inideaweb.com) - [Tonisan](http://tonisan.com).
