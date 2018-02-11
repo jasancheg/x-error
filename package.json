@@ -1,0 +1,57 @@
+{
+  "name": "x-error",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Jose Antonio Sanchez",
+    "email": "jasancheg@gmail.com"
+  },
+  "homepage": "https://github.com/jasancheg/x-error",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test",
+    "lint": "./node_modules/.bin/xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jasancheg/x-error.git"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^2.9.0",
+    "mocha": "^5.0.0",
+    "should": "^13.2.1",
+    "xo": "^0.18.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "license": "© Jose Antonio Sanchez",
+  "engines": {
+    "node": "^9.3.0",
+    "npm": "^5.6.0"
+  },
+  "xo": {
+    "extends": [
+      "prettier"
+    ],
+    "ignores": [],
+    "globals": [
+      "describe",
+      "before",
+      "after",
+      "it"
+    ],
+    "rules": {
+      "unicorn/prefer-type-error": 0,
+      "no-unused-expressions": 0
+    },
+    "env": {
+      "es6": true,
+      "node": true
+    }
+  }
+}
